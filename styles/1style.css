@@ -1,0 +1,494 @@
+.nav-link{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 550;
+    color: black;
+    margin-right: 40px;
+  
+    transition: 0.3s;
+  }
+
+  .nav-link:hover{
+    text-decoration: underline;
+  }
+  
+  .navbar-brand{
+    color: black;
+    font-weight: 650;
+    font-size: 30px;
+  }
+  
+
+  #nav-brand-logo{
+    width: 110px;
+  }
+
+  .navbar{
+    border-bottom: 2px solid lightgrey;
+    background-color: white;
+  }
+
+  /*section-header*/
+
+  #section-header{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 13%;
+    width: 98%;
+  }
+
+  @media (max-width:830px) {
+    #section-header{
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-top: 30%;
+      width: 94%;
+    }
+  }
+
+.image-container-main{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 5%;
+}
+
+#home-header-image{
+  width: 45%;
+}
+
+#skincare-header-image{
+  width: 30%;
+  background-color: lightgrey;
+}
+
+.image-container-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+#kitchen-header-image{
+  width: 85%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/*products-proud-section*/
+
+#products-proud-section{
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 13%;
+  width: 98%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  gap: 16px;
+  padding: 16px;
+}
+
+@media screen and (max-width: 830px) {
+  .grid-container {
+      grid-template-columns: repeat(1, 100%);
+  }
+}
+
+h3{
+  font-size: 35px;
+  font-weight: 650;
+  margin-left: 4.5%;
+}
+
+@media (min-width:830px) {
+  .Procuts-proud-container-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+}
+
+@media (max-width:830px) {
+  .Procuts-proud-container-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+  
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  .products-card{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 2px solid lightgrey;
+    width: 60%;
+    transition: 0.3s;
+  }
+  
+  .products-card-js{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 2px solid lightgrey;
+    width: 500px;
+    transition: 0.3s;
+  }
+
+  h3{
+    font-size: 32px;
+    font-weight: 650;
+    margin-left: 3.7%;
+    text-align: center;
+  }
+
+  .products-card:hover{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 2px solid rgb(2,2,2);
+    width:  60%;
+    cursor: pointer;
+  }
+
+  .products-card-js:hover{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 2px solid rgb(2,2,2);
+    width: 500px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width:500px) {
+  .products-card-js{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 2px solid lightgrey;
+    width: 200px;
+    transition: 0.3s;
+  }
+
+  .products-card-js:hover{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 2px solid rgb(2,2,2);
+    width: 200px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width:830px) {
+  .products-card{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 2px solid lightgrey;
+    width: 230px;
+    transition: 0.3s;
+  }
+
+  .products-card:hover{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 2px solid rgb(2,2,2);
+    width: 230px;
+    cursor: pointer;
+  }
+
+  .products-card-js{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 2px solid lightgrey;
+    width: 230px;
+    transition: 0.3s;
+  }
+
+  .products-card-js:hover{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 2px solid rgb(2,2,2);
+    width: 230px;
+    cursor: pointer;
+  }
+}
+
+
+
+.product-image-card{
+  width: 200px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.product-card-name{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.product-card-price{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 650;
+}
+
+
+/*harmonious-living-section*/
+
+#harmonious-living-section{
+  margin-right: 6%;
+  margin-left: 8%;
+  margin-top: 13%;
+
+  background-color: lightgrey;
+}
+
+.container-living{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+  margin-top: 3%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+
+.card-living{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
+
+@media (max-width:830px) {
+  .container-living{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+  
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
+
+    padding: 10%;
+  }
+
+  #align-right{
+   display: none;
+  }
+
+  #harmonious-living-section{
+    margin-right: 7%;
+    margin-left: 9%;
+    margin-top: 13%;
+   
+    background-color: lightgrey;
+  }
+
+  #shop-now-btn{
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 50px;
+    border: 2px solid black;
+  
+    font-size: 22px;
+    font-weight: 500;
+  
+    transition: 0.3s;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  #shop-now-btn:hover{
+    background-color:white;
+    color: black;  
+  }
+
+  #align-left{
+    position: relative;
+    left: -2%;
+  
+    height: 250px;
+  }
+}
+
+@media (min-width:830px) {
+  #align-left{
+    position: relative;
+    left: -2%;
+  
+    height: 420px;
+  }
+}
+
+#align-right{
+  position: relative;
+  right: -2%;
+
+  height: 500px;
+}
+
+h4{
+  font-size: 30px;
+  font-weight: 550;
+}
+
+@media (min-width:830px) {
+  #shop-now-btn{
+    background-color: black;
+    color: white;
+    width: 68%;
+    height: 10%;
+    border: 2px solid black;
+  
+    font-size: 22px;
+    font-weight: 500;
+  
+    transition: 0.3s;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  #shop-now-btn:hover{
+    background-color:white;
+    color: black;  
+  }
+}
+
+#living-text{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*trending-section*/
+
+#trending-section{
+  margin-right: 3.5%;
+  margin-left: 5%;
+  margin-top: 13%;
+}
+
+/*CSS is copied from section above*/
+/*trending-section End*/
+
+
+/*Section Footer*/
+#section-footer{
+  background-color: rgb(2,2,2);
+  margin-top: 10%;
+}
+
+.container-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width:500px) {
+  .container-footer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #footer-text{
+    margin-top: 5%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+#footer-text{
+  margin-top: 5%;
+  margin-right: 2%;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+#footer-text:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/*Header on Mobile*/
+@media (max-width:830px) {
+  #header-for-mobile{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  #home-header-image{
+    display: none;
+  }
+  
+  #skincare-header-image{
+    display: none;
+  }
+  #kitchen-header-image{
+    display: none;
+  }
+}
+
+@media (min-width:830px) {
+  #header-for-mobile{
+    display: none;
+  }
+}
